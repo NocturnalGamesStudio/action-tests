@@ -1,0 +1,10 @@
+name: "Build and Publish"
+
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latests
+    steps:
+      - name: hi
+        run: echo "Hello!!!!!!!!!!!!"
